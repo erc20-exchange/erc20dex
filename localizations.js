@@ -112,21 +112,38 @@ arr.EN = {
         COPYRIGHT: '2018 © Copyright  ERC20',
         USER_AGREEMENT: 'User Agreement',
         PRIVACY_POLICY: 'Privacy Policy',
-        PRIVACY_POLICY_TEXT: `Centralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.
-      \nSimply speaking, it is an exchange which fully leverage power of blockchain and smart contracts. There is no user database or user wallet on such an exchange. Instead, user is represented as an address on the blockchain which can trade with others through a smart contract.
-      \nTransparency — smart contract source code is always publicly exposed. Anyone can verify that there is no malicious code in the contract. Contracts: ETH, ETC, UBQ. The whole trading process (bids, asks, order book) may be audited at any time as this information is also publicly exposed.
-      \nPrivacy — you are not required to disclose anything about yourself or your funds to successfully trade with others.
-      \nReliability — You can always withdraw all the funds used for the trading back to your wallet. This value is embedded in a smart contract. We cannot lock your funds, delay and block the withdrawal that you request.
-      \nQuality — beautiful charting library, mobile-friendly experience, all the best for our users.
-      \nentralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.`,
-        USER_AGREEMENT_TEXT: `Centralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.
-      \nSimply speaking, it is an exchange which fully leverage power of blockchain and smart contracts. There is no user database or user wallet on such an exchange. Instead, user is represented as an address on the blockchain which can trade with others through a smart contract.
-      \nTransparency — smart contract source code is always publicly exposed. Anyone can verify that there is no malicious code in the contract. Contracts: ETH, ETC, UBQ. The whole trading process (bids, asks, order book) may be audited at any time as this information is also publicly exposed.
-      \nPrivacy — you are not required to disclose anything about yourself or your funds to successfully trade with others.
-      \nReliability — You can always withdraw all the funds used for the trading back to your wallet. This value is embedded in a smart contract. We cannot lock your funds, delay and block the withdrawal that you request.
-      \nQuality — beautiful charting library, mobile-friendly experience, all the best for our users.
-      \nentralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.`
-    },
+        PRIVACY_POLICY_TEXT: `Information we collect, store or process:
+        \n1. As a web-server nginx is used which may store logs of IP addresses accessing the server and response codes.
+        \n2. For visitors analysis, Google Analytics is utilized and configured for minimal amount of information to be collected. Also we utilize Google Analytics event system to collect anonymous information about key functions triggered on the exchange. This analytics is needed for us to improve our exchange experience further. AdBlock plugin blocks usage of Google Analytics if needed.
+        \nWe will not give, sell or provide access to this information to third parties.
+        \nInformation stored in blockchain is considered as anonymous and public. It is utilized in order to keep exchange functioning properly.
+        \nExchange is designed specifically in a way to avoid collection of any personal information about users such as emails, document scans or anything that may help to identify a user. It is always prefered to utlize abstract blockchain addressess for user identity rather than any information which may help to trace user identity.`,
+            USER_AGREEMENT_TEXT: `Version: 1
+            
+            \nLast updated: 30th, June 2018
+            
+            \nThese Terms of Service and any terms expressly incorporated herein (“Terms”) apply to any access to, or use of, any services made available by erc20.exchange (“erc20.exchange”) using the website erc20.exchange (the “Site”) or our mobile applications, and to any other related services provided by erc20.exchange (collectively, the “Services”). By clicking on an “I Agree” button or check box presented with these Terms or, if earlier, by accessing or using any Services, you agree to be bound by these Terms.
+                
+            \n1. MODIFICATION OF TERMS
+            \nerc20.exchange may modify these Terms by providing notice of such changes, such as by sending you an email, providing notice through the Services, or updating the “Last Updated” date at the top of these Terms. By clicking on an “I Agree” button or checkbox presented with the modified Terms, or by continuing to access or use of the Services, you confirm your agreement to the modified Terms. If you do not agree to any modification to these Terms, you must stop using the Services. erc20.exchange encourages you to frequently review the Terms to ensure you understand the terms and conditions that apply to your access to, and use of, the Services. If you have any question regarding the use of the Site or Services, please contact our Support Team at support@erc20.exchange
+            \n2. RISK DISCLOSURES; ASSUMPTION OF RISKS; RELEASE OF ERC20.EXCHANGE
+            \nTrading cryptocurrency, cryptographic tokens and other digital rights or assets (“Tokens”), and use of other Services provided by erc20.exchange, involves significant risks and potential for financial losses, including without limitation the following:
+            \n\t1. The features, functions, characteristics, operation, use and other properties of any Token (“Token Properties”) and the software, networks, protocols, systems, and other technology (including, if applicable, any blockchain) (“Underlying Technology”) used to administer, create, issue, transfer, cancel, use or transact in any Token may be complex, technical or difficult to understand or evaluate.
+            \n\t2. Any Token and its Underlying Technology may be vulnerable to attacks on the security, integrity or operation of the Token or its Underlying Technology (“Attacks”), including Attacks using computing power sufficient to overwhelm the normal operation of a blockchain or other Underlying Technology.
+            \n\t3. Any Token, Token Properties or Underlying Technology may change or otherwise cease to operate as expected due to a change made to the Underlying Technology, a change made using features or functions built into the Underlying Technology or a change resulting from an Attack. These changes may include, without limitation, a “fork” or “rollback” of a Token or blockchain.
+            \n\t4. Any Token may be cancelled, lost or double spent, or otherwise lose all or most of their value, due to forks, rollbacks, Attacks, changes to Token Properties or failure of the Token to operate as intended.
+            \n\t5. erc20.exchange may not support metacoins, colored coins or other Tokens, or their related side chains or other Underlying Technology that are based on a fork, enhancement, or derivative of a different Token or Underlying Technology (“Derivative Protocols”) even if the Derivative Protocol is based on a Token that is supported by erc20.exchange.
+            \n\t6. Any Token may decrease in value or lose all of its value due to various factors including discovery of wrongful conduct, market manipulation, changes to Token Properties or perceived value of Token Properties, Attacks, suspension or cessation of support for a Token by erc20.exchange or other exchanges or service providers, and other factors outside the control of erc20.exchange.
+            \n\t7. Any Token may decrease in value or lose all of its value due to legislative or regulatory activity, or other government action. Government regulation of Tokens is unsettled and rapidly evolving.
+            \n\t8. Any Token may be lost if sent to the wrong address (for example but without limitation, if the address is improperly formatted, contains errors, or is intended to be used for a different type of Token).
+                
+            \nThe risks described in this Section 2 may result in loss of Tokens, decrease in or loss of all value for Tokens, inability to access or transfer Tokens, inability to trade Tokens, inability to receive financial benefits available to other Token holders, and other financial losses to you. You hereby assume, and agree that erc20.exchange will have no responsibility or liability for, such risks. You hereby irrevocably waive, release and discharge any and all claims, whether known or unknown to you, against erc20.exchange, its Affiliates and their respective shareholders, members, directors, officers, employees, agents and representatives related to any of the risks set forth herein.
+            \nYou represent and warrant that you have: (a) the necessary technical expertise and ability to review and evaluate the security, integrity and operation of any Tokens that you decide to acquire or trade; and (b) the knowledge, experience, understanding, professional advice and information to make your own evaluation of the merits and risks of any Token or trade. You accept the risk of trading Tokens by using the Services, and are responsible for conducting your own independent analysis of the risks specific to the Tokens and the Services. You should not acquire or trade any Tokens unless you have sufficient financial resources and can afford to lose all value of the Tokens.
+            \nerc20.exchange decision to support transfer, storage or trading of any particular Token through the Services does not indicate erc20.exchange’s approval or disapproval of the Token or the integrity, security or operation of the Token or its Underlying Technology. The risks associated with Tokens and trading Tokens apply notwithstanding erc20.exchange’s decision to support a particular Token. erc20.exchange does not provide trading advice, does not have any fiduciary duty to you or any other user and does not make any warranty about the suitability of any Token for trading or ownership by you.
+                
+            \n3. PRIVACY POLICY
+            \nPlease refer to our privacy policy for information about how erc20.exchange collects, uses, and shares your information.`,
+   },
 
     reasons: {
         1: 'Backend node is not functioning properly.',
@@ -349,20 +366,8 @@ arr.RU = {
         COPYRIGHT: '2018 © Copyright  ERC20',
         USER_AGREEMENT: 'Пользовательское соглашение',
         PRIVACY_POLICY: 'Политика конфиденциальности',
-        PRIVACY_POLICY_TEXT: `Centralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.
-      \nSimply speaking, it is an exchange which fully leverage power of blockchain and smart contracts. There is no user database or user wallet on such an exchange. Instead, user is represented as an address on the blockchain which can trade with others through a smart contract.
-      \nTransparency — smart contract source code is always publicly exposed. Anyone can verify that there is no malicious code in the contract. Contracts: ETH, ETC, UBQ. The whole trading process (bids, asks, order book) may be audited at any time as this information is also publicly exposed.
-      \nPrivacy — you are not required to disclose anything about yourself or your funds to successfully trade with others.
-      \nReliability — You can always withdraw all the funds used for the trading back to your wallet. This value is embedded in a smart contract. We cannot lock your funds, delay and block the withdrawal that you request.
-      \nQuality — beautiful charting library, mobile-friendly experience, all the best for our users.
-      \nentralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.`,
-        USER_AGREEMENT_TEXT: `Centralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.
-      \nSimply speaking, it is an exchange which fully leverage power of blockchain and smart contracts. There is no user database or user wallet on such an exchange. Instead, user is represented as an address on the blockchain which can trade with others through a smart contract.
-      \nTransparency — smart contract source code is always publicly exposed. Anyone can verify that there is no malicious code in the contract. Contracts: ETH, ETC, UBQ. The whole trading process (bids, asks, order book) may be audited at any time as this information is also publicly exposed.
-      \nPrivacy — you are not required to disclose anything about yourself or your funds to successfully trade with others.
-      \nReliability — You can always withdraw all the funds used for the trading back to your wallet. This value is embedded in a smart contract. We cannot lock your funds, delay and block the withdrawal that you request.
-      \nQuality — beautiful charting library, mobile-friendly experience, all the best for our users.
-      \nentralized exchanges simply cannot be used to trade decentralized assets. They represent huge risk to fund owners. You need to always remember — you are not owning your funds as long as they are on a centralized exchange (we all remember Mt. Gox, Cryptsy, BTC-E). ERC20 Exchange is a decentralized exchange which let you own your funds and still be able to exchange them with others without giving away your wallet keys and without a need to disclose anything about yourself.`
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -582,6 +587,8 @@ arr.IND = {
         COPYRIGHT: '2018 © Copyright  ERC20',
         USER_AGREEMENT: 'Persetujuan Pengguna',
         PRIVACY_POLICY: 'Kebijakan Privasi',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -803,6 +810,8 @@ arr.HA = {
         COPYRIGHT: '2018 © ikon-mallaka  ERC20',
         USER_AGREEMENT: 'yarijejeniyar mai amfani',
         PRIVACY_POLICY: 'takardar kebantawa',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -1026,6 +1035,8 @@ arr.VI = {
         COPYRIGHT: '2018 Â© Bản quyền ERC20',
         USER_AGREEMENT: 'Thỏa thuận Người dùng',
         PRIVACY_POLICY: 'Chính sách Bảo mật',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -1248,6 +1259,8 @@ arr.FIL = {
         COPYRIGHT: '2018 © Copyright  ERC20',
         USER_AGREEMENT: 'Kasunduan ng Gumagamit',
         PRIVACY_POLICY: 'Polisiya sa Privacy',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -1470,6 +1483,8 @@ arr.IG = {
         COPYRIGHT: '2018 © nwebisiinka  ERC20',
         USER_AGREEMENT: 'Njirimara Onye ọrụ',
         PRIVACY_POLICY: 'amụma nzuzo',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
@@ -1692,6 +1707,8 @@ arr.YO = {
         COPYRIGHT: '2018 © ase-ase ERC20',
         USER_AGREEMENT: 'adehun olumulo',
         PRIVACY_POLICY: 'eto imulo ipamo',
+        PRIVACY_POLICY_TEXT: arr.EN.footer.PRIVACY_POLICY_TEXT,
+        USER_AGREEMENT_TEXT: arr.EN.footer.USER_AGREEMENT_TEXT,
     },
 
     reasons: {
